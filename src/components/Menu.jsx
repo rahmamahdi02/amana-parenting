@@ -11,7 +11,7 @@ export default function Menu({ isOpen, closeMenu  }) {
     >
       <div className="flex justify-between mt-4">
       <a href={"#hero"}>
-        <img className="w-[75px]" src='/logo-primary.svg' alt="Rekonekcija 333 Ljiljana Logo" />
+        <img className="w-[75px]" src='/logo-nav.png' alt="Amana Parenting Logo" />
       </a>
       <button
       

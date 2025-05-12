@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         'primaryColor': {
-          light: '#c2a869',
+          light: '#e9f0f3',
           DEFAULT: '#30718b',
         },
         darkColor: '#0D1B1E',
