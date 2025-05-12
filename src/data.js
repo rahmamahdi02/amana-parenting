@@ -11,9 +11,9 @@ import instagramIcon from './assets/instagram-icon.svg';
 import facebookIcon from './assets/facebook-icon.svg';
 
 export const navLinks = [
-    { name: "Tretmani", to: "tretmani" },
-    { name: "O Meni", to: "o-meni" },
-    { name: "Kontakt", to: "kontakt" },
+    { name: "Services", to: "tretmani" },
+    { name: "About Me", to: "o-meni" },
+    { name: "Contact", to: "kontakt" },
   ];
 
 export const counter = [
@@ -77,25 +77,25 @@ export const benefits = [
 export const contactInformations = [
   {
     contactIcon: phoneIcon,
-    contactTitle: 'Pozovite',
-    contactInformation: "+381 69 116 2977",
-    contactLink: "tel:+381691162977",
-  },
-  {
-    contactIcon: envelopeIcon,
-    contactTitle: 'Pišite',
-    contactInformation: "ljiljananaildesign@gmail.com",
-    contactLink: "mailto:ljiljananaildesign@gmail.com",
+    contactTitle: 'Clarity Call',
+    contactInformation: "Book a 15 min session with Yusur",
+    contactLink: "https://calendly.com/amanaparentcoaching/15min?month=2025-05",
   },
   {
     contactIcon: mapMarkerIcon,
-    contactTitle: 'Posetite',
-    contactInformation: "Marije Bursaća 8, Niš",
-    contactLink: "https://www.google.com/maps?q=Marije+Bursaća+8,+Niš",
+    contactTitle: 'Community',
+    contactInformation: "Join Yusur's WhatsApp Group to Stay Up to Date",
+    contactLink: "https://chat.whatsapp.com/FYcODaC7UjvEcB8qy3WOqW",
+  },
+  {
+    contactIcon: envelopeIcon,
+    contactTitle: 'Email',
+    contactInformation: "amanaparentcoaching@gmail.com",
+    contactLink: "mailto:amanaparentcoaching@gmail.com",
   },
 ];
 
 export const socialNetworks = [
-  {icon: instagramIcon, username: 'rekonekcija_ljiljana', link: 'https://www.instagram.com/rekonekcija_ljiljana/'},
-  {icon: facebookIcon, username: 'Rekonekcija Ljiljana 333', link: 'https://www.facebook.com/profile.php?id=100095531199276'}
-]
+  {icon: instagramIcon, username: 'amanaparenting', link: 'https://www.instagram.com/amanaparenting/'},
+  {icon: facebookIcon, username: 'amanaparenting', link: 'https://www.facebook.com/amanaparenting/'}
+];
