@@ -16,10 +16,8 @@ export default function Contact() {
           </h2>
           <p>
             Do you host a podcast? Looking for speakers for your parenting mastermind or summit? Do you have an Islamic school, local masjid or run a group supporting parents?
-          </p>
-          <p>
-            Contact with Yusur Below.
-          </p>
+          </p>   
+            <a href="/join" className="btn btn-primary">Contact with Yusur </a>
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />
         </div>

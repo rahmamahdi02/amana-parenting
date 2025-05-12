@@ -38,8 +38,8 @@ function App() {
         <Treatmants />
         <Benefits />
         <Cta/>
-        <Faq />
         <Contact />
+        <Faq />
         <Connect/>
       </main>
       <Footer />

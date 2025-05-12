@@ -39,12 +39,14 @@ export const navLinks = [
     {
       treatmantTitle: '1:1 Specialized Coaching with Coach Yusur',
       treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. Learn more by booking your free Clarity Call today.',
-      treatmantPrice: 'Starting at $600 for 6 weeks program.'
+      treatmantPrice: 'Starting at $600 for 6 weeks program.',
+      treatmantButtonText: "Book Your Clarity Call Today",
     },
     {
       treatmantTitle: 'Confident Mamas Membership',
-      treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection. Start your journey for just €37/month.',
-      treatmantPrice: '$37/month membership.'
+      treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection.',
+      treatmantPrice: '$37/month membership.',
+      treatmantButtonText: "Coming June 2025",
     }
   ];
   

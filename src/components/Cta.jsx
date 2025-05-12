@@ -1,4 +1,4 @@
-import ctaImg from '../assets/cta-img.png';
+import ctaImg from '../assets/ctas-img.png';
 
 export default function Cta() {
   return (
@@ -15,7 +15,7 @@ export default function Cta() {
             Confident Mamas Mentorship is a monthly membership built for Muslim moms who need real-time support, faith-centered guidance, and a community that truly understands.
             </p>
             <p> This is your safe space to exhale, reset, and reconnect—with others and with yourself.</p>
-            <a href="/join" className="btn btn-primary">Join the Membership</a>
+            <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">Coming June 2025</a>
           </div>
           <div className='aspect-square w-full md:w-1/2 md:h-[500px]'>
             <img className='object-cover w-full h-full' src={ctaImg} alt='Supportive hands symbolizing community and care' />
