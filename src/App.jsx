@@ -34,11 +34,11 @@ function App() {
       <main>
         <Hero />
         <Counter/>
+        <About />
         <Treatmants />
         <Benefits />
-        <About />
-        <Faq />
         <Cta/>
+        <Faq />
         <Contact />
         <Connect/>
       </main>

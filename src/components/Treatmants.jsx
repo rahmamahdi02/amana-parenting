@@ -8,7 +8,7 @@ export default function Treatmants() {
         <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
           <h2><span className='font-bold text-primaryColor'>Amana Parenting Offers</span> Specialized Support for Mamas</h2>
-          <p> These services are there to move you...from frustration to joy. from discouraged to encouraged. from disconnected to deeply connected. from mom-guilt to confidence. from surviving to thriving.</p>
+          <p> Our services are built to move you...from frustration to joy. from discouraged to encouraged. from disconnected to deeply connected. from mom-guilt to confidence. from surviving to thriving.</p>
         </SectionTitle>
             <div className="flex flex-col md:flex-row gap-4 md:gap-8">
                 {treatmants.map((item, index) => (
