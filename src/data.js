@@ -28,41 +28,42 @@ export const treatmants = [
 ];
 
 export const benefits = [
+
     {
-      benefitIcon: physicalTherapy,
-      benefitTitle: "Fizičko zdravlje",
+      benefitIcon: meditation,
+      benefitTitle: "Calmness",
       benefitDesc:
-        "Poboljšava opšte zdravstveno stanje, ublažava bol i pomaže u regeneraciji tela.",
+        "When you manage your emotions and lead with strength, your child learns to regulate theirs and trust your leadership.",
     },
     {
       benefitIcon: psychiatry,
-      benefitTitle: "Mentalno zdravlje",
+      benefitTitle: "Clarity",
       benefitDesc:
-        "Smanjuje stres, poboljšava mentalnu jasnoću i pomaže u rešavanju emocionalnih blokada.",
+        "Clear expectations, routines, and follow-through reduce confusion, prevent power struggles, and build a stable, cooperative home.",
     },
     {
-      benefitIcon: meditation,
-      benefitTitle: "Duhovni razvoj",
+      benefitIcon: physicalTherapy,
+      benefitTitle: "Conviction",
       benefitDesc:
-        "Podstiče unutrašnji mir, povećava svest o životnim svrhama i promoviše duhovni rast.",
+        "With tawakkul in Allah and confidence in your role, you’ll stop second-guessing yourself and start parenting with purpose and consistency.",
     },
     {
       benefitIcon: stamina,
-      benefitTitle: "Energetska ravnoteža",
+      benefitTitle: "Consistency",
       benefitDesc:
-        "Balansira energetske centre u telu, pomažući u slobodnom protoku životne energije.",
+        "Steady, values-based actions—day in and day out—build your child’s sense of safety, structure, and trust in you. Consistency in discipline, love, and faith sets the foundation for long-term growth.",
     },
     {
       benefitIcon: heartbeat,
-      benefitTitle: "Poboljšana vitalnost",
+      benefitTitle: "Compassion",
       benefitDesc:
-        "Povećava nivo energije i osećaj vitalnosti u svakodnevnom životu.",
+        "Responding with empathy, even in tough moments, teaches your child the power of mercy. With compassionate discipline and heartfelt understanding, you model the prophetic example and nurture emotional resilience.",
     },
     {
       benefitIcon: person,
-      benefitTitle: "Lični razvoj",
+      benefitTitle: "Connection",
       benefitDesc:
-        "Podstiče osobni rast i samopouzdanje  kroz procese samopoznanja i unutrašnje harmonije.",
+        "Nurturing daily connection through presence and kindness leads to a lasting, loving relationship with your children.",
     },
   ];
 
