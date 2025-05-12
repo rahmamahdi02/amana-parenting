@@ -1,17 +1,14 @@
 # Rekonekcija 333 Ljiljana
 
-![QR Code Component Screenshot](src/assets/screenshot.png)
 
 ## Description:
 
-Welcome to the Rekonekcija 333 Ljiljana website repository! This project is dedicated to promoting and providing detailed information about Reconnection Healing, its benefits, and how it can be accessed through Ljiljana's practice.
 
-**[Live Preview](https://rekonekcija333ljiljana.com/)**
 
 ## Features:
 
-- **Clean and Modern Design**: Aesthetic and user-friendly design that reflects the calming and transformative nature of Reconnection Healing.
-- **Informative Landing Page**: Introduction to Reconnection Healing and Ljiljana's unique approach.
+- **Clean and Modern Design**: Aesthetic and user-friendly design that reflects the calming and transformative nature of services.
+- **Informative Landing Page**: Introduction to business approach.
 - **Responsive Design**: The website is fully responsive, ensuring an optimal viewing experience on all devices (desktops, tablets, and mobile phones).
 - **SEO Optimized**: Implemented best practices for search engine optimization to enhance visibility.
 
