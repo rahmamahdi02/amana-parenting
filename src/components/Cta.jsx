@@ -8,12 +8,13 @@ export default function Cta() {
           <div className="md:w-1/2 p-8 lg:p-14 md:py-0 flex flex-col gap-6 items-start">
             <div className='lg:max-w-sm'>
               <h2 className=''>
-                <span className='font-bold text-primaryColor'>Looking for immediate support.</span> 
+              Looking for immediate<span className='font-bold text-primaryColor'> support?</span> 
               </h2>
             </div>
             <p>
-              Thriving Not Just Surviving is a monthly membership built for Muslim moms who need real-time support, faith-centered guidance, and a community that truly understands. This is your safe space to exhale, reset, and reconnect—with others and with yourself.
+            Confident Mamas Mentorship is a monthly membership built for Muslim moms who need real-time support, faith-centered guidance, and a community that truly understands.
             </p>
+            <p> This is your safe space to exhale, reset, and reconnect—with others and with yourself.</p>
             <a href="/join" className="btn btn-primary">Join the Membership</a>
           </div>
           <div className='aspect-square w-full md:w-1/2 md:h-[500px]'>

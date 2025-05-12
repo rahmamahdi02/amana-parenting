@@ -10,7 +10,7 @@ export default function Hero() {
                 <h1>Are you <span className='text-primaryColor font-bold'>ready to</span> thrive in your role as a mother</h1>
                 <p className="my-6">Create more joy and confidence while guiding your children with love, kindess, and firm limits.</p>
                 <div>
-                    <a href="tel:+381691162977" className="btn btn-primary">Zakažite Tretman</a>
+                    <a href="https://calendly.com/amanaparentcoaching/15min?month=2025-05" className="btn btn-primary">Book Your Clarity Call Today</a>
                 </div>
             </div>   
         </div>

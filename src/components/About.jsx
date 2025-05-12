@@ -14,7 +14,7 @@ export default function About() {
             Yusur Hassan - Certified Parent Coach & Founder of Amana Parenting
           </p>
           <p className='mb-4'>
-          I am Yusur Hassan, the founder of Amana Parenting. and I have been on my parenting journey for over 20 years and homeschooling for 18 years. As a certified parent coach/educator, I have had the pleasure of working with hundreds of Muslim moms individually + in groups and have created a peaceful parenting framework aligned with Prophetic teachings.
+          I am Yusur Hassan, the founder of Amana Parenting. and I have been on my parenting journey for over 25 + years and homeschooling for 20 years. As a certified parent coach/educator, I have had the pleasure of working with hundreds of Muslim moms individually + in groups and have created a peaceful parenting framework aligned with Prophetic teachings.
           </p>
           <p>
           My mission at Amana Parenting is to provide you with a path that fills your parenting role with more confidence, ease and joy while guiding your children with love, kindness, and firm limits.

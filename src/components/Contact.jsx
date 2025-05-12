@@ -12,7 +12,7 @@ export default function Contact() {
       <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
           <h2>
-            Invite Me for <span className="font-bold text-primaryColor">Speaking Events</span> Below
+            Book Yusur for <span className="font-bold text-primaryColor">Speaking </span> Events
           </h2>
           <p>
             Do you host a podcast? Looking for speakers for your parenting mastermind or summit? Do you have an Islamic school, local masjid or run a group supporting parents?

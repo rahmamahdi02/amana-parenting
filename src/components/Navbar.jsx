@@ -1,6 +1,6 @@
 // Navbar jsx
 
-import logoImg from '../../public/logo-white.svg';
+import logoImg from '../../public/logo-nav.png';
 import { navLinks } from "../data";
 
 export default function Navbar({ openMenu, isOpen }) {
@@ -9,7 +9,7 @@ export default function Navbar({ openMenu, isOpen }) {
     <header className="absolute inset-x-0 z-10">
         <div className="wrapper flex justify-between items-center mx-auto py-4">
                 <a href={"#hero"} className="cursor-pointer" aria-label="Go to Hero section">
-                <img className="w-[75px]" src={logoImg} alt="Rekonekcija 333 Ljiljana Logo"/>
+                <img className="w-[200px]" src={logoImg} alt="Amana Parenting Logo"/>
                 </a>
                 <nav>
                 <ul className={`hidden sm:flex space-x-6 items-center`}>
@@ -25,7 +25,7 @@ export default function Navbar({ openMenu, isOpen }) {
                     </li>
                     ))}
                     <li>
-                    <a href="tel:+381691162977" className="btn btn-outline">zakažite tretman</a>
+                    <a href="https://calendly.com/amanaparentcoaching/15min?month=2025-05" className="btn btn-outline">Book a Clarity Call with Yusur</a>
                     </li>
                 </ul>
                 </nav>

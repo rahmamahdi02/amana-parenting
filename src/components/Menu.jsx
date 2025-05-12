@@ -34,7 +34,7 @@ export default function Menu({ isOpen, closeMenu  }) {
             </li>
           ))}
           <li>
-            <a href="tel:+381691162977" className="btn btn-primary">Zakažite Tretman</a>
+            <a href="https://calendly.com/amanaparentcoaching/15min?month=2025-05" className="btn btn-primary">Book a Clarity Call with Yusur</a>
           </li>
         </ul>
       </nav>

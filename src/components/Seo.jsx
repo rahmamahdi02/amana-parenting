@@ -16,7 +16,7 @@ export default function Seo({ title, description, keywords, image, url, author }
       <meta property="og:image" content={image} />
       <meta property="og:url" content={url} />
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Rekonekcija 333 Ljiljana" />
+      <meta property="og:site_name" content="Amana Parenting" />
   
   </Helmet>
   )
