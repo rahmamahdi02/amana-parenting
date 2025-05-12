@@ -18,7 +18,7 @@ export default function Contact() {
             Do you host a podcast? Looking for speakers for your parenting mastermind or summit? Do you have an Islamic school, local masjid or run a group supporting parents?
           </p>
           <p>
-            Contact me to speak on Prophetic Positivity in Parenting and How to Calmly Get Your Kids to Listen.
+            Contact with Yusur Below.
           </p>
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />

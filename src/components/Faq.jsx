@@ -14,7 +14,7 @@ export default function Faq() {
     <section id="faq" className="bg-offWhite1">
       <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
-        <h2>Česta<span className='font-bold text-primaryColor'> pitanja</span></h2>
+        <h2>Common<span className='font-bold text-primaryColor'> Questions</span></h2>
         <p>Zanima vas kako rekonekcija funkcioniše? Ovde ćete pronaći odgovore na neka od najčešćih pitanja koja postavljaju naši klijenti. Verujem da će vam ove informacije pomoći da bolje razumete rekonekcijsko isceljenje i njene benefite.</p>
         </SectionTitle>
         <ul>
