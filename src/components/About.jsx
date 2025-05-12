@@ -9,7 +9,7 @@ export default function About() {
           <img className='object-cover w-full h-full' src={aboutImg} alt="" />
         </div>
         <div className='md:w-1/2'>
-          <h2 className='mb-4'>Assalamu <span className='text-primaryColor font-bold'>Alaikum</span> Momma!</h2>
+          <h2 className='mb-4'>Assalamu <span className='text-primaryColor font-bold'>Alaikum Mama!</span></h2>
           <p className='text-xl mb-6'>
             Yusur Hassan - Certified Parent Coach & Founder of Amana Parenting
           </p>

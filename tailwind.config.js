@@ -12,8 +12,8 @@ export default {
       },
       colors: {
         'primaryColor': {
-          light: '#e9f0f3',
-          DEFAULT: '#30718b',
+          light: '#FBF5F4',
+          DEFAULT: '#c2a869',
         },
         darkColor: '#0D1B1E',
         offWhite: '#FCFCFC'
