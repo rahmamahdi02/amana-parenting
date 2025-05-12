@@ -12,20 +12,42 @@ import facebookIcon from './assets/facebook-icon.svg';
 
 export const navLinks = [
     { name: "Services", to: "tretmani" },
-    { name: "About Me", to: "o-meni" },
+    { name: "About Yusur", to: "o-meni" },
     { name: "Contact", to: "kontakt" },
   ];
 
-export const counter = [
-  { counterNumber: 1000, counterTitle: 'Zadovoljnih klijenata', counterDesc: 'Rekonekcija pruža vidljive i trajne rezultate, a zadovoljstvo klijenata potvrda je efikasnosti ove delotvorne metode.'},
-  { counterNumber: 100, counterTitle: 'Održanih seansi', counterDesc: 'Kroz uspešno održane seanse, brojni klijenti su obnovili svoju energiju, postigli duhovni mir i unapredili kvalitet svog života.'},
-  { counterNumber: 10, counterTitle: 'Godina iskustva', counterDesc: 'Višegodišnje iskustvo u primeni rekonekcijskog isceljenja, sa ciljem uspostavljanja ravnoteže i unutrašnje transformacije.'}
-]  
+  export const counter = [
+    {
+      counterNumber: "500,000",
+      counterTitle: "Mothers Impacted Online",
+      counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
+    },
+    {
+      counterNumber: "1,000",
+      counterTitle: "Mothers Mentored",
+      counterDesc: "Over 1,000 mothers have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
+    },
+    {
+      counterNumber: "10 Years",
+      counterTitle: "Years of Experience",
+      counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
+    }
+  ]
+  
 
-export const treatmants = [
-    { treatmantTitle: 'Rekonekcijsko isceljenje', treatmantDesc: 'Rekonekcijsko isceljenje uklanja energetske blokade koje su se formirale tokom života, počevši od najranijeg detinjstva. Ovaj proces se izvodi u prisustvu ili na daljinu kroz tri sesije koje se održavaju tri dana za redom. Svaka sesija je jedinstvena, sa svakim danom idemo sve dublje u proces isceljenja.', treatmantPrice: 'Cena po jednoj sesiji je 40€'},
-    { treatmantTitle: 'Lična rekonekcija', treatmantDesc: 'Lična rekonekcija omogućava duboko i direktno energetsko oslobađanje blokada koje su se nakupljale tokom vašeg života. Ova metoda se izvodi u prisustvu, što omogućava direktan kontakt i rad sa vašim energetskim poljem. Lična Rekonekcija se radi samo jednom u životu i isključivo u prisustvu klijenta i praktičara.', treatmantPrice: 'Cena lične rekonekcije je 333€'}
-];
+  export const treatmants = [
+    {
+      treatmantTitle: '1:1 Mom Coaching',
+      treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. Learn more by booking your free Clarity Call today.',
+      treatmantPrice: 'Starting at €600 for 6 weeks program'
+    },
+    {
+      treatmantTitle: 'Confident Mamas Membership',
+      treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection. Start your journey for just €37/month.',
+      treatmantPrice: '€37/month membership'
+    }
+  ];
+  
 
 export const benefits = [
 
@@ -73,7 +95,7 @@ export const benefits = [
     {question: 'I struggle with consistency and staying calm. Will this program work for me?', answer: 'Absolutely. Many parents come to Amana Parenting feeling overwhelmed, reactive, or unsure where to start. Our method is built around progress, not perfection. You’ll get practical tools and mindset shifts that help you stay calm, consistent, and confident—one small step at a time.'},
     {question: 'I’m not sure which option is right for me. How do I decide?', answer: 'If you’re looking for community, steady tools, and flexible learning—start with the membership. If you feel stuck in a cycle of frustration or need tailored support for your child or family dynamic, the Clarity Call is your first step toward private coaching. I’ll help you map out a clear path forward'},
     {question: 'What results can I expect from working with Yusur?', answer: 'You’ll start seeing results in your mindset, connection with your children, and how you handle discipline. Most moms report feeling more calm, confident, and consistent—with less yelling, fewer power struggles, and deeper relationships with their kids. And best of all? You’ll be parenting in a way that aligns with your deen and values.'},
-    {question: 'What if I’m too busy to keep up?', answer: 'We get it—motherhood is full! That’s why Amana Parenting is structured to be flexible with recorded sessions and low-pressure e.g. easy scheduling. Even small changes guided by our method can make a big impact on your home and your heart.'},
+    {question: 'What if I’m too busy to keep up?', answer: 'We get it—motherhood is a full-time job! That’s why Amana Parenting is structured to be flexible with recorded sessions and low-pressure e.g. easy scheduling. Even small changes guided by our method can make a big impact on your home and your heart.'},
 ];
 
 export const contactInformations = [
