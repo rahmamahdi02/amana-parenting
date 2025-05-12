@@ -15,7 +15,7 @@ export default function Faq() {
       <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
         <h2>Common<span className='font-bold text-primaryColor'> Questions</span></h2>
-        <p>Zanima vas kako rekonekcija funkcioniše? Ovde ćete pronaći odgovore na neka od najčešćih pitanja koja postavljaju naši klijenti. Verujem da će vam ove informacije pomoći da bolje razumete rekonekcijsko isceljenje i njene benefite.</p>
+        <p>Have questions? You're not alone. Here are some of the most common questions Muslim moms ask before joining Amana Parenting, so you can move forward with clarity and confidence.</p>
         </SectionTitle>
         <ul>
           {faq.map((item, index) => (
