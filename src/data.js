@@ -12,7 +12,7 @@ import facebookIcon from './assets/facebook-icon.svg';
 
 export const navLinks = [
     { name: "Services", to: "tretmani" },
-    { name: "About Yusur", to: "o-meni" },
+    { name: "About", to: "o-meni" },
     { name: "Contact", to: "kontakt" },
   ];
 
@@ -37,7 +37,7 @@ export const navLinks = [
 
   export const treatmants = [
     {
-      treatmantTitle: '1:1 Specialized Coaching with Coach Yusur',
+      treatmantTitle: '1:1 Specialized Coaching',
       treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. Learn more by booking your free Clarity Call today.',
       treatmantPrice: 'Starting at $600 for 6 weeks program.',
       treatmantButtonText: "Book Your Clarity Call Today",

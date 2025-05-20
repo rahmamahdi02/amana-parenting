@@ -12,11 +12,11 @@ export default function Contact() {
       <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
           <h2>
-            Book Yusur for <span className="font-bold text-primaryColor">Speaking </span> Events
+          Interested in bringing <span className="font-bold text-primaryColor">Sunnah-Based Parenting Coaching </span> to your community?
           </h2>
-          <p>
-            Do you host a podcast? Looking for speakers for your parenting mastermind or summit? Do you have an Islamic school, local masjid or run a group supporting parents?
-          </p>   
+          <p> Book Yusur for your next speaking event e.g. workshop, conference and more.</p>
+          <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events.</p>   
+            
             <a href="/join" className="btn btn-primary">Contact with Yusur </a>
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />

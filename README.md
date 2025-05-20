@@ -1,6 +1,3 @@
-# Rekonekcija 333 Ljiljana
-
-
 ## Description:
 
 

@@ -1,20 +1,28 @@
-import heroBg from '../assets/heros-bg.png';
+import heroBg from '../assets/heros-bg.webp';
 import heroText from '../assets/hero-text.png';
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative">
-      <img className="absolute inset-0 w-full h-full object-cover -z-[2]" src={heroBg} alt="" />
-      <div className="bg-black/15 absolute inset-0 -z-[1]"></div>
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center justify-center text-white"
+    >
+      {/* Background Image */}
+      <img
+        className="absolute inset-0 w-full h-full object-cover -z-[2]"
+        src={heroBg}
+        alt=""
+      />
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/15 -z-[1]"></div>
 
-      <div className="wrapper flex items-center min-h-screen text-white">
-        <div className="pt-[150px] pb-[60px] -ml-4 sm:-ml-6">
-          <img
-            src={heroText}
-            alt="Hero Text"
-            className="w-[90vw] max-w-[800px] h-auto"
-          />
-        </div>
+      {/* Centered Content */}
+      <div className="w-[90vw] max-w-[800px] px-4 pt-[150px] pb-[60px]">
+        <img
+          src={heroText}
+          alt="Hero Text"
+          className="w-full h-auto mx-auto"
+        />
       </div>
     </section>
   );

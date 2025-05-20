@@ -34,11 +34,11 @@ function App() {
       <main>
         <Hero />
         <Counter/>
-        <About />
         <Treatmants />
+        <About />
         <Benefits />
         <Cta/>
-        <Contact />
+        {/* <Contact /> */}
         <Faq />
         <Connect/>
       </main>
