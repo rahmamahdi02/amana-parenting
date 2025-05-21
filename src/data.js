@@ -59,7 +59,7 @@ import facebookIcon from './assets/facebook-icon.svg';
       treatmantTitle: 'Confident Mamas Monthly Membership',
       treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection.',
       treatmantPrice: '$37/month membership.',
-      treatmantButtonText: "Coming June 2025",
+      treatmantButtonText: "Join for June 2025 Launch",
     },
   ];
   
@@ -105,7 +105,7 @@ export const benefits = [
   ];
 
   export const faq = [
-    {question: 'What is “Sunnah-Based Discipline” and how is it different from gentle parenting and other mainstream approaches?', answer: 'Sunnah-Based Discipline is a gentle yet firm approach rooted in the Prophetic example—balancing mercy with boundaries. Unlike mainstream methods that often conflict with Islamic values, this approach helps you guide your children with love, structure, and deep spiritual alignment.'},
+    {question: 'What is “sunnah-based discipline” and how is it different from gentle parenting and other mainstream approaches?', answer: 'Sunnah-Based Discipline is a gentle yet firm approach rooted in the Prophetic example—balancing mercy with boundaries. Unlike mainstream methods that often conflict with Islamic values, this approach helps you guide your children with love, structure, and deep spiritual alignment.'},
     {question: 'What’s the difference between the monthly membership and 1:1 coaching?', answer: 'The monthly membership offers group support through live Q&As, workshops, and a private community—perfect if you want consistent guidance and connection with other Muslim moms.The 1:1 coaching is a personalized deep dive, where we work together privately to address your unique parenting challenges. You can start by booking a free Clarity Call to see if it’s the right fit.'},
     {question: 'I struggle with consistency and staying calm. Will coaching work for me?', answer: 'Absolutely. Many parents come to Amana Parenting feeling overwhelmed, reactive, or unsure where to start. Our method is built around progress, not perfection. You’ll get practical tools and mindset shifts that help you stay calm, consistent, and confident—one small step at a time.'},
     {question: 'I’m not sure which option is right for me. How do I decide?', answer: 'If you’re looking for community, steady tools, and flexible learning—start with the membership. If you feel stuck in a cycle of frustration or need tailored support for your child or family dynamic, the Clarity Call is your first step toward private coaching. I’ll help you map out a clear path forward'},

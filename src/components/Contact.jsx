@@ -22,20 +22,7 @@ export default function Contact() {
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />
         </div>
         </SectionTitle>
-        <div className="grid md:grid-cols-3 gap-4 mb-8">
-          {contactInformations.map((item, index) => (
-            <Card
-              key={index}
-              link={item.contactLink}
-              icon={item.contactIcon}
-              title={item.contactTitle}
-              desc={item.contactInformation}
-            />
-          ))}
         </div>
-
-        
-      </div>
     </section>
   );
 }

@@ -34,16 +34,14 @@ function App() {
       <main>
         <Hero />
         <Counter/>
-        <Treatmants />
-        <About />
         <Benefits />
-        <Cta/>
-        {/* <Contact /> */}
+        <About />
+        <Contact /> 
+        <Treatmants />
         <Faq />
+        <Cta/>
         <Connect/>
-        <div className="bg-primaryColor text-white p-6">
-      Tailwind is working if you see this colored box
-    </div>
+        <Footer />
       </main>
     </>
   );
