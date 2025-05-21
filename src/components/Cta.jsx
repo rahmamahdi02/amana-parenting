@@ -12,7 +12,7 @@ export default function Cta() {
               </h2>
             </div>
             <p>
-            Confident Mamas Mentorship is a monthly membership built for Muslim moms who need real-time support, faith-centered guidance, and a community that truly understands.
+            Confident Mamas Membership is a monthly membership built for Muslim moms who need real-time support, faith-centered guidance, and a community that truly understands.
             </p>
             <p> This is your safe space to exhale, reset, and reconnect—with others and with yourself.</p>
             <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">Coming June 2025</a>

@@ -13,7 +13,7 @@ import facebookIcon from './assets/facebook-icon.svg';
 export const navLinks = [
     { name: "Services", to: "tretmani" },
     { name: "About", to: "o-meni" },
-    { name: "Contact", to: "kontakt" },
+    { name: "Membership", to: "Cta" },
   ];
 
   export const counter = [
