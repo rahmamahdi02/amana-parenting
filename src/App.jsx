@@ -41,6 +41,9 @@ function App() {
         {/* <Contact /> */}
         <Faq />
         <Connect/>
+        <div className="bg-primaryColor text-white p-6">
+      Tailwind is working if you see this colored box
+    </div>
       </main>
     </>
   );

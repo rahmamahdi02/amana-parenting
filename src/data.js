@@ -10,17 +10,31 @@ import mapMarkerIcon from './assets/map-marker.svg';
 import instagramIcon from './assets/instagram-icon.svg';
 import facebookIcon from './assets/facebook-icon.svg';
 
-export const navLinks = [
-    { name: "Services", to: "tretmani" },
-    { name: "About", to: "o-meni" },
-    { name: "Membership", to: "Cta" },
-  ];
+// export const navLinks = [
+//     { name: "Services", to: "tretmani" },
+//     { name: "About", to: "o-meni" },
+//     { name: "Membership", to: "Cta" },
+//   ];
 
+// export const navLinks = [
+//   { name: "Services", to: "tretmani" },    // this probably scrolls to a section ID
+//   { name: "About", to: "o-meni" },         
+//   { name: "Testimonials", to: "contacts" },
+//   { name: "Membership", to: "/M", external: true }, // 👈 NEW: full page link
+// ];
+
+  export const navLinks = [
+    { name: "Services", to: "tretmani", type: "scroll" },
+    { name: "About", to: "o-meni", type: "scroll" },
+    { name: "Membership", to: "Cta", type: "scroll" },
+    { name: "Join Membership Now", to: "/Membership", type: "route" }, // 👈 New full-page route
+  ];
+  
   export const counter = [
     {
-      counterNumber: "500,000",
-      counterTitle: "Mothers Impacted Online",
-      counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
+      counterNumber: "10 Years",
+      counterTitle: "Years of Experience",
+      counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
     },
     {
       counterNumber: "1,000",
@@ -28,10 +42,10 @@ export const navLinks = [
       counterDesc: "Over 1,000 mothers have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
     },
     {
-      counterNumber: "10 Years",
-      counterTitle: "Years of Experience",
-      counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
-    }
+      counterNumber: "500,000",
+      counterTitle: "Mothers Impacted Online",
+      counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
+    },
   ]
   
 
@@ -41,6 +55,12 @@ export const navLinks = [
       treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. Learn more by booking your free Clarity Call today.',
       treatmantPrice: 'Starting at $600 for 6 weeks program.',
       treatmantButtonText: "Book Your Clarity Call Today",
+    },
+    {
+      treatmantTitle: 'Confident Mamas Membership',
+      treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection.',
+      treatmantPrice: '$37/month membership.',
+      treatmantButtonText: "Coming June 2025",
     },
     {
       treatmantTitle: 'Confident Mamas Membership',

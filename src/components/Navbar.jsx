@@ -2,6 +2,8 @@
 
 import logoImg from '../../public/logo-nav.png';
 import { navLinks } from "../data";
+import { Link } from "react-router-dom";
+
 
 export default function Navbar({ openMenu, isOpen }) {
 
@@ -15,13 +17,27 @@ export default function Navbar({ openMenu, isOpen }) {
                 <ul className={`hidden sm:flex space-x-6 items-center`}>
                     {navLinks.map((navLink, index) => (
                     <li key={index}>
-                        <a
+                        {/* <a
                         href={`#${navLink.to}`}
                         aria-label={navLink.ariaLabel}
                         className="cursor-pointer text-white hover:text-primaryColor duration-200"
                         >
                         {navLink.name}
-                        </a>
+                        </a> */}
+                        {navLink.type === "route" ? (
+  <a href={navLink.to} className="cursor-pointer text-white hover:text-primaryColor duration-200">
+    {navLink.name}
+  </a>
+) : (
+  <a
+    href={`#${navLink.to}`}
+    aria-label={navLink.ariaLabel}
+    className="cursor-pointer text-white hover:text-primaryColor duration-200"
+  >
+    {navLink.name}
+  </a>
+)}
+
                     </li>
                     ))}
                     <li>

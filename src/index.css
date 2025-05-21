@@ -1,4 +1,7 @@
+/* src/index.css
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 h1, h2, h3 {
   line-height: 1.1;
@@ -8,8 +11,7 @@ body {
   line-height: 170%;
 }
 
-@tailwind components;
-@tailwind utilities;
+
 
 @layer base {
   html {
@@ -49,5 +51,68 @@ body {
   .btn-outline {
     @apply bg-transparent border text-white border-white hover:bg-primaryColor hover:border-primaryColor;
   }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+h1, h2, h3 {
+  line-height: 1.1;
 }
 
+body {
+  line-height: 170%;
+}
+
+/* Base layer */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-offWhite font-sans text-[15px];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+  }
+
+  h1 {
+    @apply text-5xl;
+    /* Use sm:text-7xl in JSX instead */
+  }
+
+  h2 {
+    @apply text-4xl;
+    /* Use lg:text-5xl in JSX instead */
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+}
+
+/* Components layer */
+@layer components {
+  .wrapper {
+    @apply px-4 max-w-6xl mx-auto;
+  }
+
+  .btn {
+    @apply capitalize font-normal rounded-full py-3 px-5 whitespace-nowrap inline-block border duration-200 hover:bg-transparent;
+  }
+
+  .btn-primary {
+    @apply bg-primaryColor text-white border-primaryColor hover:text-primaryColor;
+  }
+
+  .btn-outline {
+    @apply bg-transparent border text-white border-white hover:bg-primaryColor hover:border-primaryColor;
+  }
+}
