@@ -24,10 +24,9 @@ import facebookIcon from './assets/facebook-icon.svg';
 // ];
 
   export const navLinks = [
-    { name: "Services", to: "tretmani", type: "scroll" },
     { name: "About", to: "o-meni", type: "scroll" },
-    { name: "Membership", to: "Cta", type: "scroll" },
-    { name: "Join Membership Now", to: "/Membership", type: "route" }, // 👈 New full-page route
+    { name: "Services", to: "tretmani", type: "scroll" },
+    { name: "Join Membership Today", to: "/Membership", type: "route" }, // 👈 New full-page route
   ];
   
   export const counter = [
