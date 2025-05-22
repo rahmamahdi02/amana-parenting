@@ -8,19 +8,19 @@ import envelopeIcon from './assets/envelope.svg';
 import phoneIcon from './assets/phone.svg';
 import mapMarkerIcon from './assets/map-marker.svg';
 import instagramIcon from './assets/instagram-icon.svg';
-import facebookIcon from './assets/facebook-icon.svg';
 
-export const navLinks = [
-    { name: "Services", to: "tretmani" },
-    { name: "About", to: "o-meni" },
-    { name: "Membership", to: "Cta" },
+
+  export const navLinks = [
+    { name: "About", to: "o-meni", type: "scroll" },
+    { name: "Services", to: "tretmani", type: "scroll" },
+    { name: "Testimonials", to: "Testimonials", type: "scroll" }, 
   ];
-
+  
   export const counter = [
     {
-      counterNumber: "500,000",
-      counterTitle: "Mothers Impacted Online",
-      counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
+      counterNumber: "10 Years",
+      counterTitle: "Years of Experience",
+      counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
     },
     {
       counterNumber: "1,000",
@@ -28,26 +28,26 @@ export const navLinks = [
       counterDesc: "Over 1,000 mothers have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
     },
     {
-      counterNumber: "10 Years",
-      counterTitle: "Years of Experience",
-      counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
-    }
+      counterNumber: "500,000",
+      counterTitle: "Mothers Impacted Online",
+      counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
+    },
   ]
   
 
   export const treatmants = [
     {
-      treatmantTitle: '1:1 Specialized Coaching',
-      treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. Learn more by booking your free Clarity Call today.',
-      treatmantPrice: 'Starting at $600 for 6 weeks program.',
+      treatmantTitle: '1:1 Coaching Program',
+      treatmantDesc: 'For Muslim mothers who want personalized, faith-rooted guidance to navigate parenting challenges with clarity, calmness, and consistency. In these private sessions, we work together to address your specific struggles—from tantrums to discipline—while building your confidence and spiritual connection. First step: book your free Clarity Call today.',
+      treatmantPrice: 'Starting at $699 for 6 weeks program.',
       treatmantButtonText: "Book Your Clarity Call Today",
     },
     {
-      treatmantTitle: 'Confident Mamas Membership',
+      treatmantTitle: 'Confident Mamas Monthly Membership',
       treatmantDesc: 'Join a nurturing, Sunnah-based parenting community designed to support Muslim moms in building peaceful, purposeful homes. Through live coaching, monthly workshops, and a supportive sisterhood, you’ll gain the tools and mindset to lead your family with calm authority and deep connection.',
       treatmantPrice: '$37/month membership.',
-      treatmantButtonText: "Coming June 2025",
-    }
+      treatmantButtonText: "Join for June 2025 Launch",
+    },
   ];
   
 
@@ -92,7 +92,7 @@ export const benefits = [
   ];
 
   export const faq = [
-    {question: 'What is “Sunnah-Based Discipline” and how is it different from gentle parenting and other mainstream approaches?', answer: 'Sunnah-Based Discipline is a gentle yet firm approach rooted in the Prophetic example—balancing mercy with boundaries. Unlike mainstream methods that often conflict with Islamic values, this approach helps you guide your children with love, structure, and deep spiritual alignment.'},
+    {question: 'What is “sunnah-based discipline” and how is it different from gentle parenting and other mainstream approaches?', answer: 'Sunnah-Based Discipline is a gentle yet firm approach rooted in the Prophetic example—balancing mercy with boundaries. Unlike mainstream methods that often conflict with Islamic values, this approach helps you guide your children with love, structure, and deep spiritual alignment.'},
     {question: 'What’s the difference between the monthly membership and 1:1 coaching?', answer: 'The monthly membership offers group support through live Q&As, workshops, and a private community—perfect if you want consistent guidance and connection with other Muslim moms.The 1:1 coaching is a personalized deep dive, where we work together privately to address your unique parenting challenges. You can start by booking a free Clarity Call to see if it’s the right fit.'},
     {question: 'I struggle with consistency and staying calm. Will coaching work for me?', answer: 'Absolutely. Many parents come to Amana Parenting feeling overwhelmed, reactive, or unsure where to start. Our method is built around progress, not perfection. You’ll get practical tools and mindset shifts that help you stay calm, consistent, and confident—one small step at a time.'},
     {question: 'I’m not sure which option is right for me. How do I decide?', answer: 'If you’re looking for community, steady tools, and flexible learning—start with the membership. If you feel stuck in a cycle of frustration or need tailored support for your child or family dynamic, the Clarity Call is your first step toward private coaching. I’ll help you map out a clear path forward'},

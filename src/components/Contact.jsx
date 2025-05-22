@@ -17,25 +17,15 @@ export default function Contact() {
           <p> Book Yusur for your next speaking event e.g. workshop, conference and more.</p>
           <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events.</p>   
             
-            <a href="/join" className="btn btn-primary">Contact with Yusur </a>
+           {/* <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">
+            Contact Yusur
+           </a> */}
+
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />
         </div>
         </SectionTitle>
-        <div className="grid md:grid-cols-3 gap-4 mb-8">
-          {contactInformations.map((item, index) => (
-            <Card
-              key={index}
-              link={item.contactLink}
-              icon={item.contactIcon}
-              title={item.contactTitle}
-              desc={item.contactInformation}
-            />
-          ))}
         </div>
-
-        
-      </div>
     </section>
   );
 }

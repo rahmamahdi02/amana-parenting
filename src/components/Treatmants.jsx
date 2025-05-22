@@ -25,12 +25,25 @@ export default function Treatmants() {
               <p>{item.treatmantDesc}</p>
               <div>
                 <p className="font-semibold mb-4">{item.treatmantPrice}</p>
-                <a
-                  href="https://calendly.com/amanaparentcoaching/15min?month=2025-05"
-                  className="btn btn-primary"
-                >
-                  {item.treatmantButtonText}
-                </a>
+
+                {item.treatmantTitle === '1:1 Coaching Program' ? (
+                  <a
+                    href="https://calendly.com/amanaparentcoaching/15min?month=2025-05"
+                    className="btn btn-primary"
+                  >
+                    {item.treatmantButtonText}
+                  </a>
+                ) : (
+                  <a
+                    href="/Membership"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                  >
+                    {item.treatmantButtonText}
+                  </a>
+                )}
+
               </div>
             </div>
           ))}

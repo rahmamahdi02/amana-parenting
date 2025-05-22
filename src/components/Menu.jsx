@@ -26,7 +26,7 @@ export default function Menu({ isOpen, closeMenu  }) {
       </div>
       <nav className="min-h-[calc(100vh-75px)] flex justify-center items-center">
         <ul className="space-y-8 text-xl">
-          {navLinks.map((navLink, index) => (
+          {/* {navLinks.map((navLink, index) => (
             <li key={index}>
               <a href={`#${navLink.to}`} onClick={closeMenu} aria-label={navLink.ariaLabel}>
                 {navLink.name}
@@ -35,9 +35,23 @@ export default function Menu({ isOpen, closeMenu  }) {
           ))}
           <li>
             <a href="https://calendly.com/amanaparentcoaching/15min?month=2025-05" className="btn btn-primary">Book a Clarity Call with Yusur</a>
-          </li>
+          </li> */}
+          {navLinks.map((navLink, index) => (
+  <li key={index}>
+    {navLink.type === "route" ? (
+      <a href={navLink.to} onClick={closeMenu}>
+        {navLink.name}
+      </a>
+    ) : (
+      <a href={`#${navLink.to}`} onClick={closeMenu}>
+        {navLink.name}
+      </a>
+    )}
+  </li>
+))}
         </ul>
       </nav>
     </div>
   );
 }
+

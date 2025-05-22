@@ -5,23 +5,24 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center text-white"
+      className="relative w-full aspect-[4/5] md:aspect-[16/9] text-white overflow-hidden"
     >
-      {/* Background Image */}
+      {/* Background Image - object aligned right */}
       <img
-        className="absolute inset-0 w-full h-full object-cover -z-[2]"
+        className="absolute inset-0 w-full h-full object-cover object-right -z-[2]"
         src={heroBg}
-        alt=""
+        alt="Hero Background"
       />
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/15 -z-[1]"></div>
 
-      {/* Centered Content */}
-      <div className="w-[90vw] max-w-[800px] px-4 pt-[150px] pb-[60px]">
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/15 -z-[1]" />
+
+      {/* Text Image - max height is 2/3 of the hero, centered left */}
+      <div className="absolute inset-0 flex items-center justify-start px-4 md:px-16">
         <img
           src={heroText}
           alt="Hero Text"
-          className="w-full h-auto mx-auto"
+          className="h-[59%] w-auto max-w-full"
         />
       </div>
     </section>
