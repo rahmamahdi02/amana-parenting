@@ -8,7 +8,6 @@ import envelopeIcon from './assets/envelope.svg';
 import phoneIcon from './assets/phone.svg';
 import mapMarkerIcon from './assets/map-marker.svg';
 import instagramIcon from './assets/instagram-icon.svg';
-import facebookIcon from './assets/facebook-icon.svg';
 
 // export const navLinks = [
 //     { name: "Services", to: "tretmani" },
@@ -28,6 +27,8 @@ import facebookIcon from './assets/facebook-icon.svg';
     { name: "Services", to: "tretmani", type: "scroll" },
     { name: "Testimonials", to: "tretmani", type: "scroll" }, //not updated
     // { name: "Join Membership Today", to: "/Membership", type: "route" }, // New full-page route
+    { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
+
   ];
   
   export const counter = [
