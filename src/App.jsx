@@ -36,10 +36,10 @@ function App() {
         <Counter/>
         <Benefits />
         <About />
-        <Contact /> 
         <Treatmants />
         <Faq />
         <Cta/>
+        <Contact /> 
         <Connect/>
         <Footer />
       </main>

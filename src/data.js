@@ -27,7 +27,7 @@ import instagramIcon from './assets/instagram-icon.svg';
     { name: "Services", to: "tretmani", type: "scroll" },
     { name: "Testimonials", to: "tretmani", type: "scroll" }, //not updated
     // { name: "Join Membership Today", to: "/Membership", type: "route" }, // New full-page route
-    { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
+    // { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
 
   ];
   

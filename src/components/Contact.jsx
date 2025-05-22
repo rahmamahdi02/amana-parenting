@@ -18,9 +18,9 @@ export default function Contact() {
           <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events.</p>   
             
           <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">
-            Contact with Yusur
+            Contact Yusur
           </a>
-          
+
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />
         </div>
