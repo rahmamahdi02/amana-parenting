@@ -17,9 +17,9 @@ export default function Contact() {
           <p> Book Yusur for your next speaking event e.g. workshop, conference and more.</p>
           <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events.</p>   
             
-          <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">
+           {/* <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">
             Contact Yusur
-          </a>
+           </a> */}
 
           <div className="flex justify-center">
           <img src={speakerEventsImage} alt="Speaking Events" className="max-w-full h-auto" />

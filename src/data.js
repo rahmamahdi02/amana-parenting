@@ -9,25 +9,11 @@ import phoneIcon from './assets/phone.svg';
 import mapMarkerIcon from './assets/map-marker.svg';
 import instagramIcon from './assets/instagram-icon.svg';
 
-// export const navLinks = [
-//     { name: "Services", to: "tretmani" },
-//     { name: "About", to: "o-meni" },
-//     { name: "Membership", to: "Cta" },
-//   ];
-
-// export const navLinks = [
-//   { name: "Services", to: "tretmani" },    // this probably scrolls to a section ID
-//   { name: "About", to: "o-meni" },         
-//   { name: "Testimonials", to: "contacts" },
-//   { name: "Membership", to: "/M", external: true }, // 👈 NEW: full page link
-    // { name: "Join Membership Today", to: "/Membership", type: "route" }, // New full-page route
-    // { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
-// ];
 
   export const navLinks = [
     { name: "About", to: "o-meni", type: "scroll" },
     { name: "Services", to: "tretmani", type: "scroll" },
-    { name: "Testimonials", to: "Testimonials", type: "scroll" }, //not updated
+    { name: "Testimonials", to: "Testimonials", type: "scroll" }, 
   ];
   
   export const counter = [

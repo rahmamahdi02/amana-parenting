@@ -32,60 +32,40 @@ export default function About() {
               onClick={() => setShowModal(true)}
               className="btn btn-primary"
             >
-              Read Yusur's Story
+              Click to Read Yusur's Story
             </button>
           </div>
         </div>
       </div>
 
       {showModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4">
-          <div className="bg-primaryColor-light text-black rounded-[40px] max-w-2xl w-full p-6 relative mt-12 mb-12 overflow-auto max-h-[90vh]">
-            {/* Close button - gold and more centered on the right */}
-            <button
-              onClick={() => setShowModal(false)}
-              className="absolute right-6 top-4 md:top-1/2 md:-translate-y-1/2 text-[#D4AF37] text-3xl font-bold hover:opacity-80"
-              aria-label="Close modal"
-            >
-              ×
-            </button>
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 px-4">
+    <div className="relative bg-primaryColor-light text-black rounded-[40px] max-w-2xl w-full p-8 pt-16 overflow-auto max-h-[90vh] custom-scroll">
+      {/* Close Button - Larger, Centered Above Title */}
+      <button
+        onClick={() => setShowModal(false)}
+        className="absolute left-1/2 -translate-x-1/2 top-4 text-[#D4AF37] text-4xl font-bold hover:opacity-80 z-10"
+        aria-label="Close modal"
+      >
+        ×
+      </button>
 
-            {/* Modal Content */}
-            <h2 className="text-3xl font-serif mb-4">
-              My Story
-            </h2>
-            <div className="space-y-4 text-[17px] leading-relaxed">
-              <p>
-                There was a time after my fourth daughter was born, when I felt like I was merely surviving motherhood.
-              </p>
-              <p>
-                I thought that if my children would just listen, then I could maintain my calm loving approach, rather than sounding like a drill sergeant.
-              </p>
-              <p>
-                I knew it but hadn’t yet internalized it. If we get that our children belong to Allah, then we get that they are whole, and they are not a project for us to fix or control. We can lovingly but firmly guide them rather than fix them.
-              </p>
-              <p>
-                When I learned about the inner-parenting work a.k.a emotional regulation and the shifting of parenting mindsets, I realized that I needed to get curious and not furious in order to understand their behavior. I was able to come from a place of empathy and connection in my interactions with my children while still providing healthy guidelines. I experienced more joy with my children, while trusting in Allah’s perfect plan for them.
-              </p>
-              <p>
-                Now I am more confident to parent from a place of tawakul “trust in Allah” and Iman—a beautiful place to parent from.
-              </p>
-              <p>
-                And so, I'm dedicated to working with Muslim moms who feel stuck in their parenting, who want so badly to fulfill this beautiful Amana but who do not know how to confidently and easily address their parenting challenges.
-              </p>
-              <p>
-                As a certified parenting coach and educator, I have helped countless Muslim mothers effectively guide and teach their children, all while nurturing loving and lasting relationships with them. I have studied with local scholars in halaqaat, and have taught workshops to hundreds of Muslim Moms both locally and internationally.
-              </p>
-              <p>
-                When my daughters hit their pre-teen years, I reached the breaking point. I felt there were more power struggles and disconnection in my home instead of the joy and peace that I wanted for my family. It was painful to feel like I was failing at my most important role: being a mother.
-              </p>
-              <p>
-                Speaking with a mentor helped me to realize that I am responsible for my own emotional baggage, my ability to manage my parenting triggers and the painful lack of empathy I had for myself and my children. My mentor reminded me of an important truth: children are an “amana” — a trust from Allah — and they belong to Him alone!
-              </p>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Modal Content */}
+      <h2 className="text-3xl font-serif mb-6 text-center">My Story</h2>
+      <div className="space-y-6 text-[17px] leading-relaxed px-2 md:px-4">
+        <p>There was a time after my fourth daughter was born, when I felt like I was merely surviving motherhood.</p>
+        <p>I thought that if my children would just listen, then I could maintain my calm loving approach, rather than sounding like a drill sergeant.</p>
+        <p>I knew it but hadn’t yet internalized it. If we get that our children belong to Allah, then we get that they are whole, and they are not a project for us to fix or control...</p>
+        <p>When I learned about the inner-parenting work a.k.a emotional regulation...</p>
+        <p>Now I am more confident to parent from a place of tawakul “trust in Allah” and Iman—a beautiful place to parent from.</p>
+        <p>And so, I'm dedicated to working with Muslim moms who feel stuck in their parenting...</p>
+        <p>As a certified parenting coach and educator, I have helped countless Muslim mothers...</p>
+        <p>When my daughters hit their pre-teen years, I reached the breaking point...</p>
+        <p>Speaking with a mentor helped me to realize that I am responsible for my own emotional baggage...</p>
+      </div>
+    </div>
+  </div>
+)}
     </section>
   );
 }
