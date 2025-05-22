@@ -1,5 +1,5 @@
 import React from 'react';
-import yourImage from '../assets/marquee-image.png'; // update path as needed
+import yourImage from '../assets/marquee-image.png';
 
 const MarqueeImage = () => {
   const animationStyle = `
@@ -26,7 +26,6 @@ const MarqueeImage = () => {
     <div className="marquee-container">
       <style>{animationStyle}</style>
       <div className="marquee-track">
-        {/* 👇 Render same image sequence twice for seamless loop */}
         {[...images, ...images].map((img, i) => (
           <img key={i} src={img} alt="marquee" className="h-40 mx-4" />
         ))}
