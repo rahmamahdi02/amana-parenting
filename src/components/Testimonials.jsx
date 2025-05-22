@@ -18,6 +18,7 @@ export default function Testimonials() {
   }, [images.length]);
 
   return (
+    <section id="Testimonials">
     <section className="space-y-10">
       {/* Image Carousel */}
       <div className="flex justify-center">
@@ -48,6 +49,7 @@ export default function Testimonials() {
           ></button>
         ))}
       </div>
+    </section>
     </section>
   );
 }

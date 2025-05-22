@@ -20,15 +20,14 @@ import instagramIcon from './assets/instagram-icon.svg';
 //   { name: "About", to: "o-meni" },         
 //   { name: "Testimonials", to: "contacts" },
 //   { name: "Membership", to: "/M", external: true }, // 👈 NEW: full page link
+    // { name: "Join Membership Today", to: "/Membership", type: "route" }, // New full-page route
+    // { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
 // ];
 
   export const navLinks = [
     { name: "About", to: "o-meni", type: "scroll" },
     { name: "Services", to: "tretmani", type: "scroll" },
-    { name: "Testimonials", to: "tretmani", type: "scroll" }, //not updated
-    // { name: "Join Membership Today", to: "/Membership", type: "route" }, // New full-page route
-    // { name: "Join Membership Today", to: "/Membership", type: "route", newTab: true }, // <- Add newTab
-
+    { name: "Testimonials", to: "Testimonials", type: "scroll" }, //not updated
   ];
   
   export const counter = [

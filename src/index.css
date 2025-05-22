@@ -116,3 +116,16 @@ body {
     @apply bg-transparent border text-white border-white hover:bg-primaryColor hover:border-primaryColor;
   }
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}

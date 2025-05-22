@@ -13,6 +13,8 @@ import Counter from "./components/Counter";
 import Cta from "./components/Cta";
 import Connect from "./components/Connect";
 import Navbar from "./components/Navbar";
+import MarqueeImage from "./components/MarqueeImage";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -35,11 +37,14 @@ function App() {
         <Hero />
         <Counter/>
         <Benefits />
+        <MarqueeImage/>
         <About />
         <Treatmants />
         <Faq />
         <Cta/>
-        <Contact /> 
+        <Contact />
+        <Testimonials />
+        <MarqueeImage/> 
         <Connect/>
         <Footer />
       </main>
