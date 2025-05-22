@@ -17,13 +17,21 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/15 -z-[1]"></div>
 
       {/* Centered Content */}
-      <div className="w-[90vw] max-w-[800px] px-4 pt-[150px] pb-[60px]">
+      {/* <div className="w-[90vw] max-w-[800px] px-4 pt-[150px] pb-[60px]">
         <img
           src={heroText}
           alt="Hero Text"
           className="w-full h-auto mx-auto"
         />
-      </div>
+      </div> */}
+      <div className="w-[90vw] max-w-[800px] px-4 pt-[150px] pb-[60px] ml-[-33.33%]">
+  <img
+    src={heroText}
+    alt="Hero Text"
+    className="w-full h-auto"
+  />
+</div>
+
     </section>
   );
 }

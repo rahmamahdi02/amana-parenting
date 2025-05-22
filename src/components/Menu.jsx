@@ -1,6 +1,5 @@
 // Menu jsx
 
-import { Link } from "react-router-dom";
 import { navLinks } from "../data";
 
 export default function Menu({ isOpen, closeMenu  }) {
