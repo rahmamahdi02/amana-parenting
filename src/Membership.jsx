@@ -1,5 +1,6 @@
 // Membership.jsx
 import Hero from "./components/Hero";
+import HeroMembership from "./components/HeroMembership";
 import Treatmants from "./components/Treatmants";
 import Benefits from "./components/Benefits";
 import About from "./components/About";
@@ -13,9 +14,9 @@ function Membership() {
   return (
     <>
     <main>
-        <Hero />
         <Counter />
         <Treatmants />
+        <HeroMembership />
         <About />
         <Benefits />
         <Cta />
