@@ -19,13 +19,13 @@ function Membership() {
   return (
     <>
     <main>
-        <Counter />
-        <Treatmants />
         <HeroMembership />
         <About />
+        <Counter />
+        <Treatmants />
         <BenefitMembership />
-        <CtaMembership />
         <Testimonials />
+        <CtaMembership />
         <FaqMembership />
         <MarqueeImage/> 
         <Connect />
