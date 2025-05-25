@@ -99,6 +99,38 @@ export const benefits = [
     {question: 'What results can I expect from working with Yusur?', answer: 'You’ll start seeing results in your mindset, connection with your children, and how you handle discipline. Most moms report feeling more calm, confident, and consistent—with less yelling, fewer power struggles, and deeper relationships with their kids. And best of all? You’ll be parenting in a way that aligns with your deen and values.'},
 ];
 
+export const faqMembership = [
+  {
+    question: 'Will I get access to Yusur Hassan as a coach?',
+    answer: 'Yes! You’ll have direct access to Yusur through weekly live coaching calls and the private group.',
+  },
+  {
+    question: 'What if I can’t make the live coaching calls?',
+    answer: 'No worries! All live coaching calls are recorded, so you can catch up anytime at your convenience.',
+  },
+  {
+    question: 'Is the membership only for Muslim moms?',
+    answer: 'You’re more than welcome to join us. It is important to understand that although Mums Unstuck covers primarily secular topics, all teachings as well as advice and coaching given, will be filtered upon Islamic principles to ensure we stay aligned to our core values as a Muslim community.',
+  },
+  {
+    question: 'How long do I have access to the content?',
+    answer: 'You’ll have ongoing access to all resources and videos as long as you’re a member.',
+  },
+  {
+    question: 'How much does it cost?',
+    answer: 'It’s just $37/month, giving you expert coaching, resources, and community support!',
+  },
+  {
+    question: 'What is the cancellation policy?',
+    answer: 'You can cancel anytime before your next billing cycle. No long-term commitment required!',
+  },
+  {
+    question: 'I have another question. How can I ask it?',
+    answer: 'Feel free to reach out directly via our private group or contact support through amanaparentcoaching@gmail.com.',
+  },
+];
+
+
 export const contactInformations = [
   {
     contactIcon: phoneIcon,

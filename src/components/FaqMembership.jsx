@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { faq } from "../data";
+import { faqMembership as faqData } from "../data";
 import SectionTitle from './SectionTitle';
 
-export default function Faq() {
+// ✅ Rename the component to avoid name clash
+export default function FaqMembershipSection() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -11,18 +12,24 @@ export default function Faq() {
   };
 
   return (
-    <section id="faq" className="bg-offWhite1">
+    <section id="faqMembership" className="bg-offWhite1">
       <div className="wrapper my-[75px] lg:my-[100px]">
         <SectionTitle>
-        <h2>Common<span className='font-bold text-primaryColor'> Questions</span></h2>
-        <p>Have questions? You're not alone. Here are some of the most common questions Muslim moms ask before joining Amana Parenting, so you can move forward with clarity and confidence.</p>
+          <h2>
+            Common<span className="font-bold text-primaryColor"> Questions</span>
+          </h2>
+          <p>
+            Have questions? You're not alone. Here are some of the most common
+            questions Muslim moms ask before joining Amana Parenting, so you can
+            move forward with clarity and confidence.
+          </p>
         </SectionTitle>
         <ul>
-          {faq.map((item, index) => (
+          {faqData.map((item, index) => (
             <li key={index} className="mb-4 rounded-3xl border border-gray-300">
               <button
                 onClick={() => toggleAccordion(index)}
-                className="px-6 py-5 text-left rounded-3xl cursor-pointer w-full flex justify-between items-center  gap-4"
+                className="px-6 py-5 text-left rounded-3xl cursor-pointer w-full flex justify-between items-center gap-4"
               >
                 <h3>{item.question}</h3>
                 <div className="relative">
