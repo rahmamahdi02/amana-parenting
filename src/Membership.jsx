@@ -21,11 +21,11 @@ function Membership() {
     <main>
         <HeroMembership />
         <About />
+        <CtaMembership />
         <Counter />
         <Treatmants />
         <BenefitMembership />
         <Testimonials />
-        <CtaMembership />
         <FaqMembership />
         <MarqueeImage/> 
         <Connect />

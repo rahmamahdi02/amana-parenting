@@ -25,21 +25,13 @@ export default function Testimonials() {
   };
 
   return (
-    <section id="Testimonials">
-      <div className="wrapper my-[75px] lg:my-[100px]">
-        <SectionTitle>
-          <h2>  <span className="text-primaryColor font-bold">Learn what Muslims Moms have said about{" "}</span>
-             working with Yusur:          
-          </h2>
-          <p className="text-xl mb-6">
-            Join a nurturing, Sunnah-based parenting community designed to
-            support Muslim moms in building peaceful, purposeful homes.
-          </p>
-        </SectionTitle>
-
-        <div className="space-y-10">
-          <div className="flex justify-center relative">
-            <div className="relative w-full max-w-2xl aspect-[4/3] overflow-visible rounded-xl">
+    <section>
+      <div className="wrapper">
+        <div className="bg-primaryColor-light flex flex-col md:flex-row rounded-[24px] lg:rounded-[40px] overflow-hidden p-8 lg:p-14 gap-10 items-center md:items-stretch">
+          
+          {/* Carousel on the left */}
+          <div className="md:w-1/2 w-full flex flex-col items-start justify-center">
+            <div className="relative w-full aspect-[4/3] max-w-md mx-auto md:mx-0">
               {images.map((img, index) => (
                 <img
                   key={index}
@@ -51,36 +43,50 @@ export default function Testimonials() {
                 />
               ))}
 
-              {/* Unicode Arrows */}
+              {/* Arrows */}
               <button
                 onClick={handlePrev}
-                className="absolute -left-14 top-1/2 -translate-y-1/2 text-[#D4AF37] bg-white/70 hover:bg-white rounded-full p-3 text-2xl font-bold shadow-lg"
+                className="absolute -left-12 top-1/2 -translate-y-1/2 text-[#D4AF37] bg-white/70 hover:bg-white rounded-full p-3 text-2xl font-bold shadow-lg"
                 aria-label="Previous"
               >
                 ←
               </button>
               <button
                 onClick={handleNext}
-                className="absolute -right-14 top-1/2 -translate-y-1/2 text-[#D4AF37] bg-white/70 hover:bg-white rounded-full p-3 text-2xl font-bold shadow-lg"
+                className="absolute -right-12 top-1/2 -translate-y-1/2 text-[#D4AF37] bg-white/70 hover:bg-white rounded-full p-3 text-2xl font-bold shadow-lg"
                 aria-label="Next"
               >
                 →
               </button>
             </div>
+
+            {/* Dots aligned left under the carousel */}
+            <div className="flex justify-start gap-2 mt-4 pl-2 w-full">
+              {images.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrent(index)}
+                  className={`w-3 h-3 rounded-full ${
+                    current === index ? "bg-primaryColor" : "bg-gray-300"
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                ></button>
+              ))}
+            </div>
           </div>
 
-          {/* Carousel Dots */}
-          <div className="flex justify-center gap-2">
-            {images.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrent(index)}
-                className={`w-3 h-3 rounded-full ${
-                  current === index ? "bg-primaryColor" : "bg-gray-300"
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              ></button>
-            ))}
+          {/* Text on the right */}
+          <div className="md:w-1/2 flex flex-col justify-center text-center md:text-left items-center md:items-start">
+            <SectionTitle>
+              <h2>
+                <span className="text-primaryColor font-bold">Learn what Muslim Moms have said about </span>
+                working with Yusur:
+              </h2>
+              <p className="text-xl mt-6">
+                Join a nurturing, Sunnah-based parenting community designed to
+                support Muslim moms in building peaceful, purposeful homes.
+              </p>
+            </SectionTitle>
           </div>
         </div>
       </div>
