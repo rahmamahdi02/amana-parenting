@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import HeroMembership from "./components/HeroMembership";
 import Treatmants from "./components/Treatmants";
-import Benefits from "./components/Benefits";
+import BenefitMembership from "./components/BenefitMembership";
 import About from "./components/About";
 import FaqMembership from "./components/FaqMembership";
 import Counter from "./components/Counter";
@@ -18,7 +18,7 @@ function Membership() {
         <Treatmants />
         <HeroMembership />
         <About />
-        <Benefits />
+        <BenefitMembership />
         <Cta />
         <FaqMembership />
         <Connect />

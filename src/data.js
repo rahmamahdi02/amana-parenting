@@ -91,6 +91,34 @@ export const benefits = [
     },
   ];
 
+  export const benefitMembership = [
+
+    {
+      benefitIcon: meditation,
+      benefitTitle: "Calmness",
+      benefitDesc:
+        "When you manage your emotions and lead with strength, your child learns to regulate theirs and trust your leadership.",
+    },
+    {
+      benefitIcon: psychiatry,
+      benefitTitle: "Clarity",
+      benefitDesc:
+        "Clear expectations, routines, and follow-through reduce confusion, prevent power struggles, and build a stable, cooperative home.",
+    },
+    {
+      benefitIcon: person,
+      benefitTitle: "Connection",
+      benefitDesc:
+        "Nurturing daily connection through presence and kindness leads to a lasting, loving relationship with your children.",
+    },
+    {
+      benefitIcon: heartbeat,
+      benefitTitle: "Conviction",
+      benefitDesc:
+        "With tawakkul in Allah and confidence in your role, you’ll stop second-guessing yourself and start parenting with purpose and consistency.",
+    },
+  ];
+
   export const faq = [
     {question: 'What is “sunnah-based discipline” and how is it different from gentle parenting and other mainstream approaches?', answer: 'Sunnah-Based Discipline is a gentle yet firm approach rooted in the Prophetic example—balancing mercy with boundaries. Unlike mainstream methods that often conflict with Islamic values, this approach helps you guide your children with love, structure, and deep spiritual alignment.'},
     {question: 'What’s the difference between the monthly membership and 1:1 coaching?', answer: 'The monthly membership offers group support through live Q&As, workshops, and a private community—perfect if you want consistent guidance and connection with other Muslim moms.The 1:1 coaching is a personalized deep dive, where we work together privately to address your unique parenting challenges. You can start by booking a free Clarity Call to see if it’s the right fit.'},
@@ -129,6 +157,7 @@ export const faqMembership = [
     answer: 'Feel free to reach out directly via our private group or contact support through amanaparentcoaching@gmail.com.',
   },
 ];
+
 
 
 export const contactInformations = [

@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { faqMembership as faqData } from "../data";
 import SectionTitle from './SectionTitle';
 
-// ✅ Rename the component to avoid name clash
 export default function FaqMembershipSection() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -18,10 +17,9 @@ export default function FaqMembershipSection() {
           <h2>
             Common<span className="font-bold text-primaryColor"> Questions</span>
           </h2>
-          <p>
-            Have questions? You're not alone. Here are some of the most common
-            questions Muslim moms ask before joining Amana Parenting, so you can
-            move forward with clarity and confidence.
+          <p>            
+             Have questions? You're not alone. Here are some of the most common
+            questions Muslim moms have when joining Confident Muslim Mamas Membership.
           </p>
         </SectionTitle>
         <ul>
@@ -31,7 +29,7 @@ export default function FaqMembershipSection() {
                 onClick={() => toggleAccordion(index)}
                 className="px-6 py-5 text-left rounded-3xl cursor-pointer w-full flex justify-between items-center gap-4"
               >
-                <h3>{item.question}</h3>
+                <p className="text-xl mb-6">{item.question}</p>
                 <div className="relative">
                   <div className="w-[18px] h-[2px] bg-primaryColor rounded-full"></div>
                   <div
