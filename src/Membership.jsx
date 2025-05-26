@@ -21,8 +21,8 @@ function Membership() {
     <main>
         <HeroMembership />
         <About />
-        <CtaMembership />
         <Counter />
+        <CtaMembership />
         <Treatmants />
         <BenefitMembership />
         <Testimonials />
