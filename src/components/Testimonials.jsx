@@ -27,7 +27,8 @@ export default function Testimonials() {
   return (
     <section>
       <div className="wrapper">
-        <div className="bg-primaryColor-light flex flex-col md:flex-row rounded-[24px] lg:rounded-[40px] overflow-hidden p-8 lg:p-14 gap-10 items-center md:items-stretch">
+      <div className="bg-primaryColor-light flex flex-col md:flex-row rounded-[24px] lg:rounded-[40px] overflow-hidden p-8 lg:p-14 gap-10">
+
           
           {/* Carousel on the left */}
           <div className="md:w-1/2 w-full flex flex-col items-start justify-center">
@@ -61,7 +62,7 @@ export default function Testimonials() {
             </div>
 
             {/* Dots aligned left under the carousel */}
-            <div className="flex justify-start gap-2 mt-4 pl-2 w-full">
+            <div className="flex justify-center gap-2 mt-4 w-full">
               {images.map((_, index) => (
                 <button
                   key={index}
@@ -76,7 +77,7 @@ export default function Testimonials() {
           </div>
 
           {/* Text on the right */}
-          <div className="md:w-1/2 flex flex-col justify-center text-center md:text-left items-center md:items-start">
+          <div className="md:w-1/2 flex flex-col justify-center text-left">
             <SectionTitle>
               <h2>
                 <span className="text-primaryColor font-bold">Learn what Muslim Moms have said about </span>
