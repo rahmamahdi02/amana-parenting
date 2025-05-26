@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Nunito', 'sans-serif'],
+        sans: ['Nunito', 'sans-serif', 'Plus Jakarta Sans'],
         serif: ['Garamond', 'serif'],
       },
       colors: {

@@ -12,6 +12,8 @@ import Connect from "./components/Connect";
 import MarqueeImage from "./components/MarqueeImage";
 import Footer from "./components/Footer";
 import CtaMembership from "./components/CtaMembership";
+import PricingPlans from "./components/PricingPlans";
+import MembershipSignup from "./components/MembershipSignup";
 
 
 function Membership() {
@@ -25,8 +27,10 @@ function Membership() {
         <CtaMembership />
         <Treatmants />
         <BenefitMembership />
+        <PricingPlans />
         <Testimonials />
         <FaqMembership />
+        <MembershipSignup />
         <MarqueeImage/> 
         <Connect />
         <Footer />
