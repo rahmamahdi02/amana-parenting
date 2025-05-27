@@ -27,8 +27,8 @@ function Membership() {
         <CtaMembership />
         <Treatmants />
         <BenefitMembership />
-        <PricingPlans />
         <Testimonials />
+        <PricingPlans />
         <FaqMembership />
         <MembershipSignup />
         <MarqueeImage/> 
