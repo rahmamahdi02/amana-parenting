@@ -40,6 +40,10 @@ export default function MyStory() {
                 realize that I am responsible for my own emotional baggage, my ability to
                 manage my parenting triggers.
               </p>
+              <p className="text-[17px]">Speaking with a mentor helped me to
+                realize that I am responsible for my own emotional baggage, my ability to
+                manage my parenting triggers.
+              </p>
             </div>
           </div>
 

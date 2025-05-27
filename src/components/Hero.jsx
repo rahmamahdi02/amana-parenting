@@ -5,11 +5,17 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative w-full aspect-[4/5] md:aspect-[16/9] text-white overflow-hidden"
+      className="
+        relative w-full 
+        aspect-[3/4]  /* shorter aspect ratio on small screens */
+        md:aspect-[16/9]  /* original wider on md and above */
+        text-white overflow-hidden
+        py-0 /* remove vertical padding */
+      "
     >
-      {/* Background Image - object aligned right */}
+      {/* Background Image - hidden below md */}
       <img
-        className="absolute inset-0 w-full h-full object-cover object-right -z-[2]"
+        className="absolute inset-0 w-full h-full object-cover object-right -z-[2] hidden md:block"
         src={heroBg}
         alt="Hero Background"
       />
@@ -18,7 +24,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/15 -z-[1]" />
 
       {/* Text Image - max height is 2/3 of the hero, centered left */}
-      <div className="absolute inset-0 flex items-center justify-start px-4 md:px-16">
+      <div className="absolute inset-0 flex items-center justify-start px-2 md:px-8">
         <img
           src={heroText}
           alt="Hero Text"
