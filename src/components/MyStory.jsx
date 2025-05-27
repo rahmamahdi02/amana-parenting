@@ -38,8 +38,7 @@ export default function MyStory() {
                 wanted for my family. It was painful to feel like I was failing at my most
                 important role: being a mother. Speaking with a mentor helped me to
                 realize that I am responsible for my own emotional baggage, my ability to
-                manage my parenting triggers and the painful lack of empathy I had for
-                myself and my children.
+                manage my parenting triggers.
               </p>
             </div>
           </div>

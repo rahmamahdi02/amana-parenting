@@ -2,7 +2,7 @@ import { counter } from "../data"
 
 export default function Counter() {
   return (
-    <section className="bg-primaryColor-light py-[50px] lg:py-[75px]">
+    <section className="bg-slate-100 py-[50px] lg:py-[75px]">
         <div className="wrapper">
             <div className="grid lg:grid-cols-3 gap-8 text-center">
                 {counter.map((item,index) => (

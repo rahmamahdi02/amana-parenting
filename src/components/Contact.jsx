@@ -15,7 +15,7 @@ export default function Contact() {
           Interested in bringing <span className="font-bold text-primaryColor">Sunnah-Based Parenting Coaching </span> to your community?
           </h2>
           <p> Book Yusur for your next speaking event e.g. workshop, conference and more.</p>
-          <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events.</p>   
+          <p>Whether you host a podcast, organize parenting summits, run an Islamic school, local masjid, or lead a parent support group— Parent Coach Yusur, the founder of Amanah Parent Coaching, is available for speaking engagements, workshops, and collaborative events. Please direct all inquiries at <span className="font-bold text-primaryColor">yusur@amana-parenting.com </span></p>   
             
            {/* <a href="mailto:amanaparentcoaching@gmail.com" className="btn btn-primary">
             Contact Yusur

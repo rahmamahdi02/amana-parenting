@@ -40,9 +40,9 @@ function App() {
         <Benefits />
         <MyStory />
         <Treatmants />
+        <Faq />
         <Cta/>
         <Contact />
-        <Faq />
         <MarqueeImage/> 
         <Connect/>
         <Footer />

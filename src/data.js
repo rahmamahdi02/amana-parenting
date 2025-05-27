@@ -11,7 +11,7 @@ import instagramIcon from './assets/instagram-icon.svg';
 
 
   export const navLinks = [
-    { name: "About", to: "o-meni", type: "scroll" },
+    { name: "Yusur's Story", to: "o-meni", type: "scroll" },
     { name: "Services", to: "tretmani", type: "scroll" },
     { name: "Testimonials", to: "Testimonials", type: "scroll" }, 
   ];
@@ -23,12 +23,12 @@ import instagramIcon from './assets/instagram-icon.svg';
       counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
     },
     {
-      counterNumber: "100s",
+      counterNumber: "1000",
       counterTitle: "Mothers Mentored",
-      counterDesc: "Over 1,000 mothers have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
+      counterDesc: "Over 1,000 mothers across 3 continents have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
     },
     {
-      counterNumber: "5000",
+      counterNumber: "500,000",
       counterTitle: "Mothers Reached Online",
       counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
     },
@@ -183,5 +183,5 @@ export const contactInformations = [
 
 export const socialNetworks = [
   {icon: instagramIcon, username: 'amanaparenting', link: 'https://www.instagram.com/amanaparenting/'},
-  {icon: envelopeIcon, username: 'amanaparentcoaching@gmail.com', link: "mailto:amanaparentcoaching@gmail.com"}
+  {icon: envelopeIcon, username: 'yusur@amana-parenting.com', link: "mailto:amanaparentcoaching@gmail.com"}
 ];
