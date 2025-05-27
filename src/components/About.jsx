@@ -43,7 +43,7 @@ export default function About() {
               onClick={() => setShowModal(true)}
               className="btn btn-primary"
             >
-              Click to Read Yusur's Story
+              Book Your Free Clarity Call with Yusur
             </button>
           </div>
         </div>

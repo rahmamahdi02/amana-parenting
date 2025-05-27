@@ -14,6 +14,7 @@ import Cta from "./components/Cta";
 import Connect from "./components/Connect";
 import Navbar from "./components/Navbar";
 import MarqueeImage from "./components/MarqueeImage";
+import MyStory from "./components/MyStory";
 
 
 function App() {
@@ -37,10 +38,11 @@ function App() {
         <Counter/>
         <About />
         <Benefits />
+        <MyStory />
         <Treatmants />
-        <Faq />
         <Cta/>
         <Contact />
+        <Faq />
         <MarqueeImage/> 
         <Connect/>
         <Footer />
