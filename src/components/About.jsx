@@ -1,9 +1,6 @@
-import { useState } from "react";
 import introVideo from "../assets/intro-video.mp4";
 
 export default function About() {
-  const [showModal, setShowModal] = useState(false);
-
   return (
     <section id="o-meni" className="bg-primaryColor-light relative">
       <div className="wrapper py-[75px] lg:py-[100px]">
@@ -33,23 +30,23 @@ export default function About() {
               Mentor Yusur Hassan - Certified Parent Coach & Founder of Amana Parenting
             </p>
             <p className="mb-6">
-              I am Yusur Hassan, the founder of Amana Parenting and I have been on my parenting journey for over 25 + years and homeschooling for 20 years. As a a certified parenting coach and educator, I have helped countless Muslim mothers effectively guide and teach their children, all while nurturing loving and lasting relationships with them. I have studied with local scholars in halaqaat, and have taught workshops to hundreds of Muslim Moms both locally and internationally.
+              I am Yusur Hassan, the founder of Amana Parenting and I have been on my parenting journey for over 25 + years and homeschooling for 20 years. As a a certified parenting coach and educator, I have helped countless Muslim mothers effectively guide and teach their children. I have studied with local scholars in halaqaat, and have taught workshops to hundreds of Muslim Moms both locally and internationally.
             </p>
             <p className="mb-6">
               My mission at Amana Parenting is to provide you with a path that fills your parenting role with more confidence, ease and joy while guiding your children with love, kindness, and firm limits.
             </p>
 
-            <button
-              onClick={() => setShowModal(true)}
-              className="btn btn-primary"
+            <a
+              href="https://calendly.com/amanaparentcoaching/15min?month=2025-05"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-primary inline-block text-center"
             >
               Book Your Free Clarity Call with Yusur
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
-

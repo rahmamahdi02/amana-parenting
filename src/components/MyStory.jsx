@@ -2,7 +2,7 @@ import introImg from "../assets/about-img.png";
 
 export default function MyStory() {
   return (
-    <section id="o-meni" className="bg-primaryColor-light relative">
+    <section id="Story" className="bg-primaryColor-light relative">
       <div className="wrapper py-[75px] lg:py-[100px]">
         <div className="max-w-6xl mx-auto flex flex-col gap-16 px-4 md:px-8">
           {/* Top: Image + Intro */}

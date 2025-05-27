@@ -11,7 +11,7 @@ import instagramIcon from './assets/instagram-icon.svg';
 
 
   export const navLinks = [
-    { name: "Yusur's Story", to: "o-meni", type: "scroll" },
+    { name: "About", to: "Story", type: "scroll" },
     { name: "Services", to: "tretmani", type: "scroll" },
     { name: "Testimonials", to: "Testimonials", type: "scroll" }, 
   ];
