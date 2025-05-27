@@ -23,13 +23,13 @@ import instagramIcon from './assets/instagram-icon.svg';
       counterDesc: "A decade of experience guiding Muslim families through compassionate, Sunnah-aligned parenting practices that promote peace, connection, and consistency."
     },
     {
-      counterNumber: "1,000",
+      counterNumber: "100s",
       counterTitle: "Mothers Mentored",
       counterDesc: "Over 1,000 mothers have received mentorship through live coaching, group sessions, and 1:1 support—building calmer homes and stronger family bonds."
     },
     {
-      counterNumber: "500,000",
-      counterTitle: "Mothers Impacted Online",
+      counterNumber: "5000",
+      counterTitle: "Mothers Reached Online",
       counterDesc: "Through free content, workshops, and community outreach, over half a million Muslim mothers have been supported with tools for faith-based, confident parenting."
     },
   ]

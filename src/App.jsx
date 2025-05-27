@@ -35,8 +35,8 @@ function App() {
       <main>
         <Hero />
         <Counter/>
-        <Benefits />
         <About />
+        <Benefits />
         <Treatmants />
         <Faq />
         <Cta/>
